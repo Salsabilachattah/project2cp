@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartoi</title>
+</head>
+<body>
+    <button id="scrollUp" onclick="scrollToSection('nav')"> up </button>
+    <header class="nav-container" id="nav" >
+        <img src="pictures/Screenshot-logo.png">
+        <ul>
+            <li> <a onclick="scrollToSection('hero')">Home</a> </li>
+            <li> <a onclick="scrollToSection('about-us')">About us</a></li>
+            <li> <a onclick="scrollToSection('products')">Products</a></li>
+            <li> <a onclick="scrollToSection('download')">Download</a></li>
+        </ul>
+    </header>
+    <section class="section" id="hero">
+        <div class="hero-text">
+            <br>
+            <h1>Home</h1>
+            <br>
+    <p>Welcome to SmarToi . Explore our innovative solutions and experience the future of living today. </p>
+    <br>
+    
+    <br>
+       <label class="switch">
+        <input type="checkbox" onclick="toggleState()">
+        <span class="slider"></span>
+        </label>
+       </div>
+       <div class="led-container">
+        <img src="pictures/bulb-off.png" id="bulb" >
+       </div>
+    </section>
+        
+    <section class="section" id="about-us">
+     <div class="img-container">
+        <img src="pictures/Screenshot-devices.png">
+     </div>
+     <div class="text-container">
+        <h1>About us</h1>
+        <br>
+        <br>
+<p>
+    We provide a smart way to live , blending innovation and comfort .</p>
+        <br>
+        <br>
+        <button ><a href="#footer" onclick="scrollToSection('footer')">Contact us</a></buttion>
+    </div>
+    </section>
+    <section class="section" id="products">
+    
+        <h1>Products</h1>
+        <div class="cards-container" >
+            <div class="card">
+                <h2 class="product-name">Smartoi 1</h2>
+                <img src="pictures/Screenshot 2024-05-14 095149.png">
+                <h2 class="best-offer">on stock</h2>
+                <h3>WI-FI smart switch , mobile application support</h3>
+                <h5 class="world-wide-shipping">Worldwide shipping</h5>
+                <button>Add to cart  45$</button>
+            </div>
+            <div class="card">
+                <h2 class="product-name">Smartoi pack</h2>
+                <img src="pictures/Screenshot 2024-05-14 095149.png">
+                <h2 class="best-offer">best offer</h2>
+                <h3>Smartoi complete pack , both Wi-Fi and RF </h3>
+                <h5 class="world-wide-shipping">Worldwide shipping</h5>
+                <button>Add to cart  70$</button>
+                
+            </div>
+            <div class="card">
+                <h2 class="product-name">Smartoi 2</h2>
+                <img src="pictures/Screenshot 2024-05-14 095149.png">
+                <h2 class="best-offer">on stock</h2>
+                <h3>RF based switch with a remote controller</h3>
+                <h5 class="world-wide-shipping">Worldwide shipping</h5>
+                <button>Add to cart   30$</button>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="download">
+        <div class="text-container">
+            <h1>Download</h1>
+            <br>
+            <br>
+            <br>
+            <p>Download our mobile app now </p>
+            <br>
+             <p>and unlock all the features</p>
+            <br>
+            <div class="button-container">
+            <a href="#" tabIndex="0"><img class="Google-play-button" src="pictures/Play_store.webp" alt="bn45"/></a>
+            <a href="#" tabIndex="0"><img class="App-store-button" src="pictures/App-store.jpg"alt="bn45"/></a>
+            </div>
+        </div>
+       <div class="img-container">
+            <img src="pictures/screenshot-phone.png" alt="Mobile Phone">
+        </div>
+    </section>
+    <footer id="footer">
+     <div id="list">
+        <h3 onclick="scrollToSection('hero')">Home</h3>
+        <h3 onclick="scrollToSection('about-us')">About us</h3>
+        <h3 onclick="scrollToSection('products')">Products</h3>
+        <h3 onclick="scrollToSection('download')">Download</h3>
+     </div>
+     <div id="logo-sec">
+        <img id="footer-logo" src="pictures/Screenshot-logo.png">
+        <h3>Join us on social media</h3>
+        <div id="icons-container">
+           <a href="https://www.facebook.com/salsabila.chattah"> <img src="pictures/facebook.png" class="icons"></a>
+        <a href="https://discord.com/users/salsabila_20        "><img src="pictures/discord.png" class="icons"></a>
+            <a href="https://www.linkedin.com/in/salsabila-chattah-2785a9270/"><img src="pictures/linkedin.png" class="icons"></a>
+            <a href="https://github.com/Salsabilachattah/"><img src="pictures/github.png" class="icons"></a>
+        </div>
+     </div>
+     <div id="e-mail-us">
+     <h3 >receive from us</h3>
+     <input id="receive" type="email" placeholder="example@gmail.com">
+     <button id="receive">
+       receive
+     </button>
+    </div>
+    
+    </footer >
+    
+</body>
+<script src="main.js"> </script>
+</html>

@@ -1,0 +1,6 @@
+
+To run the app, follow the next steps:
+- run "npm install"
+- run "npx expo start"
+- to run the simulation on your phone, scan the QR code provided in the terminal on using "Expo Go" app on Android and the camera on iPhone
+- to run the simulation using Android studio, run your virtual device and click a in the terminal
